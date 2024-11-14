@@ -29,79 +29,79 @@
             height: auto;
         }
 
-        .skull {
-            position: relative;
-            opacity: 0.75;
-            min-height: 65vh;
-        }
-
-        .skull-text {
-            font-family: trade-gothic, sans-serif;
-            font-size: 9rem;
-            font-weight: 800;
-            color: #fff;
-            text-align: center;
-            padding-top: 5%;
-        }
-
-        .border {
-            text-decoration: none;
-            color: #ffffff;
-        }
-
-        .caption {
-            position: absolute;
-            font-size: 2em;
-            left: 0;
-            top: 50%;
-            width: 100%;
-            text-align: center;
-            color: #ffffff;
-        }
-
-        .caption span.border {
-            background: rgba(13,21,41,0.8);
-            color: #fffff;
-            padding: 20px;
-            font-size: 1.25em;
-            letter-spacing: 5px;
-        }
-
-        .header-text {
-            font-family: trade-gothic, sans-serif;
-            font-size: 2em;
-            color: #595959;
-            font-weight: bold;
-            text-align: center;
-            margin: 3% auto 0 auto;
-        }
-
-        .header-table {
-            width: 100%;
-            padding-top: 30px;
-            border-collapse: collapse;
-        }
-
         .container {
-            width: 60vw;
+            width: 90vw;
             margin: 0px auto;
             display: block;
         }
 
+        .header-text {
+            font-family: trade-gothic, sans-serif;
+            font-size: 1.5em;
+            color: #595959;
+            font-weight: bold;
+            text-align: center;
+            margin: 5% auto 0 auto;
+        }
+
         .subheader-text {
             font-family: helvetica;
-            font-size: 1.5em;
+            font-size: 1.2em;
             color: #595959;
             font-weight: 500;
             text-align: center;
-            padding: 30px 0px;
+            padding: 20px 0px;
         }
 
-        .center {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 50%;
+        .remember-text {
+            font-size: 1.2em;
+            font-family: helvetica;
+            color: #595959;
+            font-weight: 800;
+            text-align: center;
+            padding: 20px 0px;
+        }
+
+        .rule-number {
+            font-size: 2.5em;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 700;
+            text-align: center;
+            color: #FFD100;
+        }
+
+        .rule-container {
+            border: 1px solid #e2e2e2;
+            border-radius: 10px;
+            padding: 10px;
+            min-height: 150px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .rule-text {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: normal;
+            text-align: center;
+            color: #595959;
+            font-size: 1.2em;
+            line-height: 25px;
+        }
+
+        .rule-container:hover {
+            box-shadow: inset 0 0 0 3px #FFD100;
+            transition: 300ms;
+            padding: 10px;
+            background: #FFD100;
+            color: #FFD100;
+        }
+
+        .rule-container:hover .rule-text {
+            color: #0F1557;
+        }
+
+        .rule-container:hover .rule-number {
+            color: #0F1557;
         }
 
         .footer {
@@ -119,168 +119,30 @@
             font-family: helvetica;
             font-size: 11px;
         }
-
-        .KB4-logo img {
-            width: 80px;
-            height: auto;
-            float: left;
-            margin-right: 15px;
-        }
-
-        .remember-text {
-            font-size: 1.5em;
-            font-family: helvetica;
-            color: #595959;
-            font-weight: 800;
-            text-align: center;
-            padding: 0px 0px 30px 0px;
-        }
-
-        .rule-number-1 {
-            font-size: 3.5em;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
-            text-align: center;
-            color: #FFD100;
-        }
-
-        .rule-number-2 {
-            font-size: 3.5em;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
-            text-align: center;
-            color: #FFD100;
-        }
-
-        .rule-number-3 {
-            font-size: 3.5em;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 700;
-            text-align: center;
-            color: #FFD100;
-        }
-
-        .rule-container {
-            border: 1px solid #e2e2e2;
-            border-radius: 10px;
-            padding: 10px;
-            min-height: 200px;
-            height: auto;
-        }
-
-        .rule-text {
-            font-family: 'Open Sans', sans-serif;
-            font-weight: normal;
-            text-align: center;
-            color: #595959;
-            font-size: 1.6em;
-            line-height: 30px;
-        }
-
-        .rule-container:hover {
-            box-shadow: inset 0 0 0 3px #FFD100;
-            transition: 300ms;
-            padding: 10px;
-            background: #FFD100;
-            color: #FFD100;
-        }
-
-        .rule-container:hover .rule-text {
-            color: #0F1557;
-        }
-
-        .rule-container:hover .rule-number-1 {
-            color: #0F1557;
-        }
-
-        .rule-container:hover .rule-number-2 {
-            color: #0F1557;
-        }
-
-        .rule-container:hover .rule-number-3 {
-            color: #0F1557;
-        }
-
-        @media only screen and (max-width: 1024px) {
-            .skull-text {
-                font-size: 5rem;
-                padding-top: 10%;
-            }
-
-            .caption {
-                font-size: 1.5em;
-            }
-
-            .caption span.border {
-                font-size: 1em;
-                padding: 10px;
-            }
-
-            .container {
-                width: 90vw;
-            }
-
-            .header-text {
-                font-size: 1.5em;
-                margin: 5% auto 0 auto;
-            }
-
-            .subheader-text {
-                font-size: 1.2em;
-                padding: 20px 0px;
-            }
-
-            .remember-text {
-                font-size: 1.2em;
-                padding: 20px 0px;
-            }
-
-            .rule-number-1, .rule-number-2, .rule-number-3 {
-                font-size: 2.5em;
-            }
-
-            .rule-text {
-                font-size: 1.2em;
-                line-height: 25px;
-            }
-        }
     </style>
 </head>
 <body>
     <img src="evento natal montepio.png" alt="Evento Natal Montepio" class="top-image">
 
     <div class="container" id="rules">
-        <div class="header-text">Os seus dados não foram comprometidos.</div>
-        <div class="subheader-text">Mas se este ataque tivesse sido real, cibercriminosos conseguiriam ter acesso a informação sensível e, posteriormente, destruir, pedir um resgate ou até mesmo vender essa informação online.</div>
-        <div class="remember-text">Lembre-se destas 3 regras para estar sempre seguro online:</div>
-
-        <table width="100%">
-            <tbody>
-                <tr>
-                    <td valign="top" width="33%">
-                        <div class="rule-container">
-                            <div class="rule-number-1">01</div>
-                            <div class="rule-text"><b>VERIFIQUE</b> sempre a legitimidade do link associado ao QR Code</div>
-                        </div>
-                    </td>
-                    <td> </td>
-                    <td valign="top" width="33%">
-                        <div class="rule-container">
-                            <div class="rule-number-2">02</div>
-                            <div class="rule-text"><b>MANTENHA</b> o sistema operativo do seu dispositivo atualizado</div>
-                        </div>
-                    </td>
-                    <td> </td>
-                    <td valign="top" width="33%">
-                        <div class="rule-container">
-                            <div class="rule-number-3">03</div>
-                            <div class="rule-text"><b>UTILIZE</b> uma aplicação de leitura de QR Codes segura</div>
-                        </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="header-text">Parece que alguém vai para a lista 📜 dos mal comportados 👺 este ano!</div>
+        <div class="subheader-text">🎅 Bem-vindo ao guia de sobrevivência contra os “Grinchs” digitais deste Natal! 🎅</div>
+        <div class="subheader-text">✨A magia do Natal enche-nos de espírito festivo, mas... também enche os "Grinchs" digitais de ideias para se infiltrar na nossa ceia 🦃🎄. Pois é, enquanto tu estás a escolher presentes🎁, há quem esteja a tentar invadir as tuas contas! 👤💰</div>
+        <div class="subheader-text">Neste Natal, lembra-te: se não aceitarias um presente suspeito de um elfo estranho🧝, também não confies em links duvidosos🔗🕵️! Segue estas dicas para que estejas na lista dos bem comportados 😋 e evitas o carvão na meia🧦:</div>
+        <div class="subheader-text"><b>"O Pai Natal nunca pediria o teu PIN!" 🎅🔒</b> — Recebeste uma mensagem a dizer que ganhaste um prémio ou desconto exclusivo? Cheira a Natal, mas cheira ainda mais a phishing 🎣! Esses “presentes” duvidosos são mais perigosos do que um bolo-rei cheio de favas! 🎂</div>
+        <div class="subheader-text"><b>"É um trenó ou um link suspeito?" 🛷🖱️</b> — Se não tens a certeza de um e-mail ou link, resiste à tentação de clicar! É como ver renas fora de época: estranho e arriscado!</div>
+        <div class="subheader-text"><b>"Fortalece a tua senha como a tua árvore de Natal!" 🌲💪</b> — Senhas fracas são uma prenda envenenada para os hackers. Esquece “1234” ou “natal2023” e usa algo mais seguro… senão o único presente que vais receber é o alerta de uma conta comprometida! 🛡️</div>
+        <div class="subheader-text"><b>"A magia do Natal também passa pela segurança!" 🎅✨</b> — Ativa a autenticação de dois fatores sempre que possível. Assim só tu tens acesso aos teus “presentes digitais”, e os Grinchs cibernéticos ficam do lado de fora!</div>
+        <div class="subheader-text"><b>"Cuidado com os phishing scams!" 🎣📧</b> — Emails falsos a fingir ser do Banco Montepio podem tentar enganar-te. Verifica sempre o remetente e nunca forneças informações pessoais ou financeiras através de links suspeitos.</div>
+        <div class="subheader-text"><b>"Protege os teus dispositivos como proteges os teus presentes!" 🎁🔐</b> — Mantém o teu software e antivírus atualizados. Um dispositivo seguro é como um presente bem embrulhado: difícil de abrir para os intrusos!</div>
+        <div class="subheader-text">Lembra-te: 🎁 Qualquer coisa que pareça boa demais para ser verdade… provavelmente é! Se recebes um desconto irresistível de última hora ou um e-mail suspeito do "Pai Natal", é mais provável que seja um "Grinch" a tentar espreitar o teu Natal.</div>
         <br />
-        <img class="wrap" height="70" src="https://www.bancomontepio.pt/content/dam/montepio/imagens/geral/academia-montepio/academia-montepio-ciberseguranca.png" style="width: 300px; height: 70px; object-fit: cover; object-position: 100% 0;" width="300" />  
         <div class="footer">
-            <hr style
+            <hr style="border: 0.5px solid #e2e2e2; margin-bottom: 20px;" />
+            <div class="disclaimer">
+                <p>Please Note: This message came from Gabinete de Cibersegurança.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
